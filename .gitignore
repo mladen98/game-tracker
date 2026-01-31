@@ -1,0 +1,25 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# Maven / Gradle build output
+target/
+build/
+.gradle/
+
+# Logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
