@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+
+  # Backend dependency updates will be enabled once we add Maven/Gradle in /backend
+  # - package-ecosystem: "maven"
+  #   directory: "/backend"
+  #   schedule:
+  #     interval: "weekly"
